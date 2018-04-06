@@ -1,0 +1,263 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC485FDE1D1D0C1C000883FC /* workqueue.c in Sources */ = {isa = PBXBuildFile; fileRef = CC485FDC1D1D0C1C000883FC /* workqueue.c */; };
+		CC485FDF1D1D0C1C000883FC /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = CC485FDD1D1D0C1C000883FC /* main.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CC4AE5F81CD49F9800CDD8AA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CC485FDB1D1D0C01000883FC /* workqueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = workqueue.h; sourceTree = "<group>"; };
+		CC485FDC1D1D0C1C000883FC /* workqueue.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = workqueue.c; sourceTree = "<group>"; };
+		CC485FDD1D1D0C1C000883FC /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		CC485FE01D1D1927000883FC /* multi-threaded-socket-server */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "multi-threaded-socket-server"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC4AE5F71CD49F9800CDD8AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC4AE5F11CD49F9800CDD8AA = {
+			isa = PBXGroup;
+			children = (
+				CC4AE5FC1CD49F9800CDD8AA /* multi-threaded-socket-server */,
+				CC485FE01D1D1927000883FC /* multi-threaded-socket-server */,
+			);
+			sourceTree = "<group>";
+		};
+		CC4AE5FC1CD49F9800CDD8AA /* multi-threaded-socket-server */ = {
+			isa = PBXGroup;
+			children = (
+				CC485FDB1D1D0C01000883FC /* workqueue.h */,
+				CC485FDC1D1D0C1C000883FC /* workqueue.c */,
+				CC485FDD1D1D0C1C000883FC /* main.c */,
+			);
+			path = "multi-threaded-socket-server";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC4AE5F91CD49F9800CDD8AA /* multi-threaded-socket-server */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC4AE6011CD49F9800CDD8AA /* Build configuration list for PBXNativeTarget "multi-threaded-socket-server" */;
+			buildPhases = (
+				CC4AE5F61CD49F9800CDD8AA /* Sources */,
+				CC4AE5F71CD49F9800CDD8AA /* Frameworks */,
+				CC4AE5F81CD49F9800CDD8AA /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "multi-threaded-socket-server";
+			productName = "multi-threaded-socket-server";
+			productReference = CC485FE01D1D1927000883FC /* multi-threaded-socket-server */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC4AE5F21CD49F9800CDD8AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = MG;
+				TargetAttributes = {
+					CC4AE5F91CD49F9800CDD8AA = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = CC4AE5F51CD49F9800CDD8AA /* Build configuration list for PBXProject "multi-threaded-socket-server" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CC4AE5F11CD49F9800CDD8AA;
+			productRefGroup = CC4AE5F11CD49F9800CDD8AA;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC4AE5F91CD49F9800CDD8AA /* multi-threaded-socket-server */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC4AE5F61CD49F9800CDD8AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC485FDF1D1D0C1C000883FC /* main.c in Sources */,
+				CC485FDE1D1D0C1C000883FC /* workqueue.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CC4AE5FF1CD49F9800CDD8AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CC4AE6001CD49F9800CDD8AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CC4AE6021CD49F9800CDD8AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/usr/local/include/mysql,
+				);
+				OTHER_LDFLAGS = (
+					"-levent",
+					"-L/usr/local/lib",
+					"-lmysqlclient",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CC4AE6031CD49F9800CDD8AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/usr/local/include/mysql,
+				);
+				OTHER_LDFLAGS = (
+					"-levent",
+					"-L/usr/local/lib",
+					"-lmysqlclient",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC4AE5F51CD49F9800CDD8AA /* Build configuration list for PBXProject "multi-threaded-socket-server" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC4AE5FF1CD49F9800CDD8AA /* Debug */,
+				CC4AE6001CD49F9800CDD8AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC4AE6011CD49F9800CDD8AA /* Build configuration list for PBXNativeTarget "multi-threaded-socket-server" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC4AE6021CD49F9800CDD8AA /* Debug */,
+				CC4AE6031CD49F9800CDD8AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC4AE5F21CD49F9800CDD8AA /* Project object */;
+}

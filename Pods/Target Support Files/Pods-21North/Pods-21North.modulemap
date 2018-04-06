@@ -1,0 +1,6 @@
+framework module Pods_21North {
+  umbrella header "Pods-21North-umbrella.h"
+
+  export *
+  module * { export * }
+}

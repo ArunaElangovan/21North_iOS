@@ -1,0 +1,232 @@
+/*
+ Localizable(Hindi).strings
+ 21North
+ 
+ Created by Aruna Elangovan on 03/04/18.
+ Copyright © 2018 Sachin Tomar. All rights reserved.
+ */
+
+//Toast messages
+"NetworkErrorToastMessage" = "या तो कोई इंटरनेट कनेक्शन नहीं है या हमारा सर्वर डाउन है बाद में पुन: प्रयास करें।";
+"CannotBookToastMessage" = "क्षमा करें, आप इस सेवा का लाभ नहीं उठा सकते आपके पास पहले से ही इस वाहन के लिए एक सक्रिय बुकिंग है।";
+"NoServiceToastMessage" = "क्षमा करें, हमारे पास आपके वाहन के लिए कोई सेवा केन्द्र नहीं है";
+"NoVehicleNumberToastMessage" = "वाहन नंबर रिक्त नहीं हो सकता";
+"DuplicateVehicleNumberToastMessage" = "आपने पहले ही यह वाहन जोड़ा है";
+"NoNumberToastMessage" = "मोबाइल नंबर रिक्त नहीं हो सकता";
+"NoRatingToastMessage" = "कृपया हमारी सेवा को रेट करें";
+
+//Home Page String
+"ServicingHeader" = "वाहन सेवा";
+"ServicingDesc" = "पारदर्शी | सुविधाजनक | ज़्यादा बचत करें";
+"CostEstimatorHeader" = "सेवा लागत अनुमानक";
+"CostEstimatorDesc" = "अपने बिल को जानें | कोई आश्चर्य नहीं";
+"ChauffeurHeader" = "चालक पर मांग";
+"ChauffeurDesc" = "आपका वाहन | हमारे चालक | मिनट द्वारा भुगतान करें";
+"RSAText" = "रोड साइड / इमरजेंसी सहायता";
+"RSADesc" = "सहायता एक स्पर्श दूर है | ड्राइव तनाव मुक्त ";
+"TrackExpenseHeader" = "वाहन व्यय ट्रैक करें";
+"TrackExpenseDesc" = "ईंधन प्रबंधन | रिकॉर्ड्स ऑफ़ स्पेन्ड्स को बनाए रखें";
+"InsuranceHeader" = "इनश्योरेंस प्रबंधन";
+"InsuranceDesc" = "नया | दावा नवीनीकृत और प्रबंधित करें | ज़्यादा बचत करें";
+"EditText" = "संपादित करें";
+"DocumentsText" = "दस्तावेज़";
+"HistoryText" = "वाहन का इतिहास";
+"BookNowText" = "अभी बुक करें";
+"BrowseText" = "ब्राउज";
+"ComingSoonText" = "जल्द आ रहा है";
+"ComingSoonToYourCitytext" = "अपने शहर के लिए जल्द ही आ रहा है";
+"SponsoredText" = "प्रायोजित";
+"QueueIdText" = "कतार आईडी : ";
+"AwaitingReviewText" = "समीक्षा की प्रतीक्षारत";
+"KMtext" = "के.एम.";
+
+//Header
+
+"BackText" = "वापस";
+"NextText" = "आगामी";
+"SaveText" = "जमा करना";
+
+//User Reg - SignUpViewController.swift
+"VerificationHeader" = "मोबाइल नंबर सत्यापित करें
+";
+"VerificationDesc" = "Please enter your mobile number to receive a verification code. We will check your ID.";
+"NumberText" = "Mobile Number";
+"ContinueText" = "Continue";
+"AgreeText" = "By continuing, I agree to the ";
+"TermsAndConditionsText" = "Terms & Conditions";
+
+"CountryPrompt" = "कृपया अपना देश चुनें";
+"MobileNumberPrompt" = "अपना मोबाइल नंबर दर्ज करें";
+"TypeText" = "वाहन का प्रकार";
+"PinText" = "पिन";
+"DoneText" = "पूर्ण";
+"PinPromptText" = "कृपया नीचे एसएमएस पिन दर्ज करें";
+"ChangeNumberPromptText" = "क्या यह आपका नंबर है?";
+"ChangeText" = "बदलना";
+"RegeneratePinPrompt" = "यदि आप 60 सेकंड में पिन प्राप्त नहीं करते हैं, तो कृपया नीचे क्लिक करें";
+"RegeneratePinText" = "पिन प्राप्त करने के लिए क्लिक करें";
+"ReferralCodeText" = "रेफ़रल कोड (वैकल्पिक)";
+"CreateAccountText" = "खाता बनाएं";
+
+//AddCar
+"ChooseBrandText" = "ब्रांड चुनें";
+"ChooseModelText" = "मॉडल और वेरियंट चुनें";
+"AddVehicleText" = "वाहन जोड़ें";
+"DuplicateVehicleText" = "डुप्लिकेट वाहन";
+"AlreadyAddedVehicleText" = "आपने पहले ही यह वाहन जोड़ा है";
+"EditVehicleText" = "वाहन संपादित करें";
+"UpdateVehicleText" = "वाहन अपडेट करें";
+"VehicleNoPromptText" = "अपना वाहन नंबर दर्ज करें";
+"VehicleTypePromptText" = "अपना वाहन प्रकार चुनें";
+
+//Menu String
+
+"DrivingLicenceText" = "ड्राइविंग लाइसेंस";
+"SettingsText" = "सेटिंग्स";
+"HelpText" = "मदद";
+"SharingText" = "साझा करना";
+"PartnerText" = "पार्टनर";
+"AboutUsText" = "हमारे बारे में";
+
+//Documents
+"InvoiceText" = "बीजक";
+"EstimateText" = "आकलन";
+"PayBillText" = "पैसा भरो";
+"TermsAndConditionsText" = "नियम और शर्तें";
+"About21NorthText" = "21नॉरथ के बारे में";
+"SponsorText" = "प्रायोजक";
+
+//Servicing
+
+"BookingCreatedSuccessText" = "बुकिंग सफलतापूर्वक बनाया गया";
+"NoServiceCentreText" = "कोई सेवा केंद्र नहीं";
+"PickupDropText" = "पिकअप और ड्रॉप";
+"PickupDropRequiredText" = "Pickup and Drop Required";
+"PickupDropNotRequiredText" = "Pickup and Drop Not Required";
+"EarliestSlotText" = "सबसे पुराना उपलब्ध स्लॉट";
+"SelectedSlotText" = "चयनित स्लॉट";
+"PickupLocationText" = "उठाने की जगह";
+"DropoffLocationText" = "छोड़ने का स्थान";
+"ClosestCentreText" = "निकटतम सेवा केंद्र";
+"AddComplaintsText" = "शिकायतें जोड़ें";
+"0ComplaintsText" = "0 शिकायतों जोड़ा";
+"PromoCodeText" = "प्रचार कोड";
+"ExpertHelpText" = "21नॉरथ विशेषज्ञ सहायता";
+"ConvenienceFeeText" = "सुविधा शुल्क";
+"PromoCodePromptText" = "प्रचार कि नियमावली दर्ज करो";
+"AddText" = "जोड़ें";
+"PromoCodeInvalidText" = "प्रोमो कोड अमान्य";
+"ComplaintsAddedText" = " शिकायतों जोड़ा";
+
+//AmbEnroute
+
+"ServiceCentreText" = "सर्विस सेंटर";
+"TimeSlotText" = "टाइम स्लॉट";
+"ScheduleServicingText" = "अनुसूची सेवा";
+"ModifyBookingText" = "बुकिंग को सुधारें";
+"ModifyText" = "सुधारना";
+"CancelText" = "रद्द करना";
+"DoneText" = "खत्म";
+"ConfirmCancelText" = "Are you sure you want to cancel?";
+"ConfirmText" = "CONFIRM";
+"PurposePromptText" = "आप क्या करना चाहते हैं?";
+"ViewComplaintsText" = "शिकायतें देखें";
+"ViewEstimateText" = "अनुमान / ईटीडी देखें";
+"ServiceAdvisorText" = "21नॉरथ सेवा सलाहकार";
+"ExpertAdviceText" = "विशेषज्ञो कि सलाह";
+"ChatServiceAdvisorText" = "21नॉरथ सर्विस एडवाइज़र से चैट करें";
+"ChatExpertAdvisorText" = "विशेषज्ञ सलाहकार के साथ चैट करें";
+"BookingText" = "बुकिंग";
+"ServiceAdvisorText" = "सेवा सलाहकार";
+"InvoiceAmountText" = "सेवा केंद्र चालान राशि";
+"AmountSavedText" = "21नॉरथ से बचत राशि";
+"21NorthConvenienceFeeText" = "21नॉरथ सुविधा शुल्क";
+"PromoDiscountText" = "प्रोमो डिस्काउंट";
+"DiscountAppliedText" = "डिस्काउंट एप्लाइड";
+"AmountPayableText" = "देय राशि";
+"ViewInvoiceText" = "चालान देखें";
+"PayInvoiceText" = "रसीद का भुगतान करें";
+"Submittext" = "जमा करें";
+"PickupAmbassadorText" = "पिकअप एंबेसडर";
+"DropoffAmbassadorText" = "ड्रॉप एंबेसडर";
+"AdvisoryFeeText" = "21नॉरथ सलाहकार शुल्क";
+
+//Req Chauffeur
+
+"ChauffeurServiceText" = "चालक सेवा";
+"ApproxHoursText" = "अंदाजे घंटे की संख्या";
+"EstConvenienceFeeText" = "अनुमानित सुविधा शुल्क";
+"RequestingChauffeurText" = "चालक का अनुरोध करना";
+"BookingCancelledText" = "बुकिंग रद्द की गई";
+"ApproxHoursText" = "लगभग घंटे";
+"HoursText" = "घंटे";
+"ChauffeurCostText" = "चालक लागत";
+"TotalPayableAmountText" = "कुल देय राशि";
+"StartedAtText" = "सेवा शुरू में";
+"EndedAtText" = "सेवा समाप्त हो गई";
+"ChauffeurText" = "चालक";
+"FeedbackText" = "प्रतिक्रिया";
+"MinutesText" = "मिनट";
+"EtaText" = "ईटीए";  //आगमन का अपेक्षित समय
+"PerMinuteText" = "प्रति मिनट";
+
+//RSA
+"RSAText" = "आरएसए";
+"RSAHeader" = "आपातकालीन सहायता";
+"RSAFullText" = "सड़क के किनारे सहायता";
+"TowingNeededText" = "टोइंग की आवश्यकता है";
+"TowingText" = "टोइंग";
+"VehicleNotMovingText" = "वाहन चलती स्थिति में नहीं है";
+"VehicleMovingText" = "वाहन चलती स्थिति में है";
+"ServiceNeededAtText" = "सेवा की आवश्यकता";
+"BreakdownLocText" = "ब्रेकडाउन स्थान";
+"TypeOfServiceText" = "सेवा का प्रकार";
+"RequestingRSAText" = "आरएसए का अनुरोध करना";
+"RequestRSAText" = "अनुरोध सहायता";
+"ServiceChargesText" = "सेवा शुल्क";
+"LicencePlateText" = "लाइसेंस प्लेट";
+"ModelText" = "वाहन मॉडल";
+"SubModelText" = "वाहन मॉडल प्रकार";
+"InsuranceDueText" = "इनश्योरेंस नवीकरण";
+"PollutionDueText" = "प्रदूषण की वजह से";
+"ServiceDueText" = "बक़ाया सेवा";
+"ChassisNumberText" = "चेसिस नंबर";
+"EngineNumberText" = "इंजन संख्या";
+"DeleteVehicleText" = "वाहन हटाएं";
+"ServiceChargesText" = "सेवा शुल्क";
+
+//Car documents
+
+"Insurance - " = "इनश्योरेंस - ";
+"Take Photo" = "फोटो लें";
+"Choose Photo" = "फोटो चुनें";
+
+//Documents
+
+"Enter Name" = "नाम दर्ज करें";
+"Name" = "नाम";
+"Continue" = "जारी रहना";
+"FeedBack" = "प्रतिक्रिया";
+
+//Setting
+
+"Your Credits " = "आपके क्रेडिट ";
+"Your Promo Code" = "आपका प्रोमो कोड";
+
+//Partner
+
+"Drive with 21North" = "21नॉरथ के साथ ड्राइव करें";
+"Do you have what it takes to drive with 21North. Meet us and find out." = "क्या आपके पास 21नॉरथ के साथ चलने के लिए क्या ज़रूरी है हमें मिलो और पता करें।";
+"Partner with 21North" = "21नॉरथ के साथ पार्टनर";
+"Are you a service centre looking to bringing in more customers" = "क्या आप एक सेवा केंद्र हैं जो अधिक ग्राहकों को लाने की कोशिश कर रहे हैं";
+"Mobile Number" = "मोबाइल नंबर";
+"Email" = "ईमेल";
+"Service Centre Name" = "सेवा केंद्र का नाम";
+
+//AboutUs
+
+"DISCOVER CONVIENCE" = "DISCOVER CONVIENCE";
+"Terms and Conditions" = "Terms and Conditions";
+"AboutUsText" = "For the same reasons you bought a Vehicle\n\n21North is a path-breaking concept in the Indian Auto After Sales Industry : aimed at solving the perennially existing problem of vehicle owners finding trustable service providers and sacrificing valuable personal time in managing their vehicle needs.\n\nAt 21North we provide vehicle owners assistance is using, maintaining & managing their automobile properties, on click of a button. Our vision is to become the de-facto destination for the vehicle owning demography for all their needs during the longest, most difficult and inconvenient phase in vehicle ownership life cycle.\n\nOur world-class technology and deep entrenchment with network partners make it possible to deliver seamless experiences to you. Once you’ve experienced 21North and its trustworthy, personalized services, you will never go back to the way you used to manage your vehicle before.";
+
+

@@ -1,0 +1,230 @@
+/*
+ Localizable(English).strings
+ 21North
+ 
+ Created by Sachin Tomar on 17/07/17.
+ Copyright © 2017 Sachin Tomar. All rights reserved.
+ */
+
+
+//Toast messages
+"NetworkErrorToastMessage" = "Either there is no internet connection or our server is down. Please try again later.";
+"CannotBookToastMessage" = "Sorry, you cannot avail this service. You already have an active booking for this vehicle.";
+"NoServiceToastMessage" = "Sorry, we do not have any service centres for your vehicle.";
+"NoVehicleNumberToastMessage" = "Vehicle number cannot be blank.";
+"DuplicateVehicleNumberToastMessage" = "You have already added this vehicle.";
+"NoNumberToastMessage" = "Mobile number cannot be blank.";
+"NoRatingToastMessage" = "Please rate our service.";
+"NoVehicleTypeToastMessage" = "Please choose your vehicle type.";
+
+//Home Page String
+"ServicingHeader" = "Vehicle Servicing";
+"ServicingDesc" = "Transparent | Convenient | Save Big";
+"CostEstimatorHeader" = "Service Cost Estimator";
+"CostEstimatorDesc" = "Know your Bill | No Surprises";
+"ChauffeurHeader" = "Chauffeur On Demand";
+"ChauffeurDesc" = "Your Vehicle | Our Driver | Pay by the Minute";
+"RSAText" = "Road Side / Emergency Assistance";
+"RSADesc" = "Help is One Touch Away | Drive Stress free";
+"TrackExpenseHeader" = "Track Vehicle Expenses";
+"TrackExpenseDesc" = "Fuel Management | Maintain Records of Spends";
+"InsuranceHeader" = "Insurance Management";
+"InsuranceDesc" = "New | Renew and Manage Claims | Save Big";
+"EditText" = "Edit";
+"DocumentsText" = "Documents";
+"HistoryText" = "Vehicle History";
+"BookNowText" = "Book Now";
+"BrowseText" = "Browse";
+"ComingSoonText" = "Coming Soon";
+"ComingSoonToYourCitytext" = "Coming Soon To Your City";
+"SponsoredText" = "Sponsored";
+"QueueIdText" = "Queue ID : ";
+"AwaitingReviewText" = "Awaiting Review";
+"KMtext" = "KM";
+
+//Header
+
+"BackText" = "Back";
+"NextText" = "Next";
+"SaveText" = "SAVE";
+
+//User Reg - MobileNumber.swift
+"CountryPrompt" = "Please select your country";
+"MobileNumberPrompt" = "Please enter your mobile number";
+"NumberText" = "Number";
+"TypeText" = "Vehicle Type";
+"PinText" = "PIN";
+"DoneText" = "Done";
+"PinPromptText" = "Please enter the sms PIN below";
+"ChangeNumberPromptText" = "Is this your number?";
+"ChangeText" = " Change";
+"RegeneratePinPrompt" = "Please click below if you did not recieve the PIN in 60 sec";
+"RegeneratePinText" = "Click to Receive PIN";
+"ReferralCodeText" = "Referral Code (Optional)";
+"CreateAccountText" = "CREATE ACCOUNT";
+
+//AddCar
+"ChooseBrandText" = "Choose Brand";
+"ChooseModelText" = "Choose Model and variant";
+"AddVehicleText" = "Add Vehicle";
+"DuplicateVehicleText" = "Duplicate Vehicle";
+"AlreadyAddedVehicleText" = "You Have Already added This Vehicle";
+"EditVehicleText" = "Edit Vehicle";
+"UpdateVehicleText" = "Update Vehicle";
+"VehicleNoPromptText" = "Enter your vehicle number";
+"VehicleTypePromptText" = "Select your vehicle type";
+
+//Menu String
+
+"DrivingLicenceText" = "Driving Licence";
+"SettingsText" = "Settings";
+"HelpText" = "Help";
+"SharingText" = "Sharing";
+"PartnerText" = "Partner";
+"AboutUsText" = "About Us";
+
+//Documents
+"InvoiceText" = "Invoice";
+"EstimateText" = "Estimate";
+"PayBillText" = "Pay bill";
+"TermsAndConditionsText" = "Terms and conditions";
+"About21NorthText" = "About 21North";
+"SponsorText" = "Sponsor";
+
+//Servicing
+
+"BookingCreatedSuccessText" = "Booking Created Successfully";
+"NoServiceCentreText" = "No service centre";
+"PickupDropText" = "Pickup and Drop";
+"PickupDropRequiredText" = "Pickup and Drop Required";
+"PickupDropNotRequiredText" = "Pickup and Drop Not Required";
+"EarliestSlotText" = "Earliest Available Slot";
+"SelectedSlotText" = "Selected Slot";
+"PickupLocationText" = "Pickup Location";
+"DropoffLocationText" = "Dropoff Location";
+"ClosestCentreText" = "Closest Service Centre";
+"AddComplaintsText" = "Add Complaints";
+"0ComplaintsText" = "0 complaints added";
+"PromoCodeText" = "Promo Code";
+"ExpertHelpText" = "21North Expert Help";
+"ConvenienceFeeText" = "Convenience Fee";
+"PromoCodePromptText" = "Enter Promo Code";
+"AddText" = "ADD";
+"PromoCodeInvalidText" = "Promo Code Invalid";
+"ComplaintsAddedText" = " complaints added";
+
+//AmbEnroute
+
+"ServiceCentreText" = "Service Centre";
+"TimeSlotText" = "Time Slot";
+"ScheduleServicingText" = "SCHEDULE SERVICING";
+"ModifyBookingText" = "MODIFY BOOKING";
+"ModifyText" = "MODIFY";
+"CancelText" = "CANCEL";
+"DoneText" = "DONE";
+"ConfirmCancelText" = "Are you sure you want to cancel";
+"ConfirmText" = "CONFIRM";
+"PurposePromptText" = "What do you want to do?";
+"CancelText" = "Cancel";
+"ViewComplaintsText" = "View Complaints";
+"ViewEstimateText" = "View Estimate / ETD";
+"ServiceAdvisorText" = "21North Service Advisor";
+"ExpertAdviceText" = "Expert Advice";
+"ChatServiceAdvisorText" = "Chat with 21North Service Advisor";
+"ChatExpertAdvisorText" = "Chat With Expert Advisor";
+"BookingText" = "Booking";
+"ServiceAdvisorText" = "Service Advisor";
+"InvoiceAmountText" = "Service Centre Invoice Amount";
+"AmountSavedText" = "Amount Saved by 21North";
+"21NorthConvenienceFeeText" = "21North Convenience Fee";
+"PromoDiscountText" = "Promo Discount";
+"DiscountAppliedText" = "Discount Applied";
+"AmountPayableText" = "Amount Payable";
+"ViewInvoiceText" = "VIEW INVOICE";
+"PayInvoiceText" = "PAY INVOICE";
+"Submittext" = "SUBMIT";
+"PickupAmbassadorText" = "Pickup Ambassador";
+"DropoffAmbassadorText" = "Dropoff Ambassador";
+"AdvisoryFeeText" = "21North Advisory Fee";
+
+//Req Chauffeur
+
+"ChauffeurServiceText" = "Chauffeur Service";
+"ApproxHoursText" = "Approximate number of Hours";
+"EstConvenienceFeeText" = "Estimated Convenience Fee";
+"RequestingChauffeurText" = "Requesting Chauffeur";
+"RequestChauffeurText" = "Request Chauffeur";
+"BookingCancelledText" = "Booking Cancelled";
+"ApproxHoursText" = "Approximate Hours";
+"HoursText" = "Hours";
+"ChauffeurCostText" = "Chauffeur Cost";
+"TotalPayableAmountText" = "Total Payable Amount";
+"StartedAtText" = "Service Started at";
+"EndedAtText" = "Service Ended At";
+"ChauffeurText" = "Chauffeur";
+"FeedbackText" = "FEEDBACK";
+"MinutesText" = "Minutes";
+"EtaText" = "ETA";
+"PerMinuteText" = "per minute";
+
+//RSA
+"RSAText" = "RSA";
+"RSAHeader" = "Emergency Assistance";
+"RSAFullText" = "Roadside Assistance";
+"TowingNeededText" = "Towing Needed";
+"TowingText" = "Towing";
+"VehicleNotMovingText" = "Vehicle is not in moving condition";
+"VehicleMovingText" = "Vehicle is in moving condition";
+"ServiceNeededAtText" = "Service Needed At";
+"BreakdownLocText" = "Breakdown Location";
+"TypeOfServiceText" = "Type Of Service";
+"RequestingRSAText" = "Requesting RSA";
+"RequestRSAText" = "Request Assistance";
+"ServiceChargesText" = "Service Charges";
+"LicencePlateText" = "Licence Plate";
+"ModelText" = "Vehicle Model";
+"SubModelText" = "Vehicle Model Variant";
+"InsuranceDueText" = "Insurance Renewal";
+"PollutionDueText" = "Pollution Due";
+"ServiceDueText" = "Service Due";
+"ChassisNumberText" = "Chassis Number";
+"EngineNumberText" = "Engine Number";
+"DeleteVehicleText" = "Delete Vehicle";
+"ServiceChargesText" = "Service Charges";
+
+//Car documents
+
+"Insurance - " = "Insurance - ";
+"Take Photo" = "Take Photo";
+"Choose Photo" = "Choose Photo";
+
+//Documents
+
+"Enter Name" = "Enter Name";
+"Name" = "Name";
+"Continue" = "Continue";
+"FeedBack" = "FeedBack";
+
+//Setting
+
+"Your Credits " = "Your Credits ";
+"Your Promo Code" = "Your Promo Code";
+"WHATSAPP INVITE" = "WHATSAPP INVITE";
+"EMAIL INVITE" = "EMAIL INVITE";
+"TEXT INVITE" = "TEXT INVITE";
+
+//Partner
+
+"Drive with 21North" = "Drive with 21North";
+"Do you have what it takes to drive with 21North. Meet us and find out." = "Do you have what it takes to drive with 21North. Meet us and find out.";
+"Partner with 21North" = "Partner with 21North";
+"Are you a service centre looking to bringing in more customers" = "Are you a service centre looking to bringing in more customers";
+"Mobile Number" = "Mobile Number";
+"Email" = "Email";
+"Service Centre Name" = "Service Centre Name";
+
+//AboutUs
+
+"DISCOVER CONVIENCE" = "DISCOVER CONVIENCE";
+"Terms and Conditions" = "Terms and Conditions";
+"AboutUsText" = "For the same reasons you bought a Vehicle\n\n21North is a path-breaking concept in the Indian Auto After Sales Industry : aimed at solving the perennially existing problem of vehicle owners finding trustable service providers and sacrificing valuable personal time in managing their vehicle needs.\n\nAt 21North we provide vehicle owners assistance is using, maintaining & managing their automobile properties, on click of a button. Our vision is to become the de-facto destination for the vehicle owning demography for all their needs during the longest, most difficult and inconvenient phase in vehicle ownership life cycle.\n\nOur world-class technology and deep entrenchment with network partners make it possible to deliver seamless experiences to you. Once you’ve experienced 21North and its trustworthy, personalized services, you will never go back to the way you used to manage your vehicle before.";
